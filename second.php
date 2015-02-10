@@ -1,6 +1,7 @@
 <?php
 
-	/*Il file PHP second i parametri che gli vengono passati reagisce in modo diverso, nel primo caso produce XML in output secondo i parametri dell'utente e nel secondo caso aggiorna il Database  */
+	/*Il file PHP second i parametri che gli vengono passati reagisce in modo diverso, nel primo caso produce
+	XML in output secondo i parametri dell'utente e nel secondo caso aggiorna il Database  */
 	if (!isset($_GET['dat'],$_GET['tim'],$_GET['spee'],$_GET['LON'],$_GET['LA'],$_GET['IMEI'])){ 
 		   
 		function parseToXML($htmlStr) 
